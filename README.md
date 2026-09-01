@@ -1,63 +1,60 @@
-# 🌸 Perfume Shop
+# 🌸 ARomanova Perfume Shop - Backend
 
-A full-stack e-commerce perfume shop application built with
-Node.js, Express.js, MongoDB, JavaScript and TypeScript.
+Node.js + Express backend API for the ARomanova Perfume Shop.
 
-## ✨ Features
+## Features
+...
 
-- 🔐 User Registration & Login
-- 👤 User Authentication
-- 🌸 Perfume Product Management
-- 🔍 Product Search
-- 🏷️ Product Categories
-- 🛒 Shopping Cart
-- 📦 Order Management
-- 💳 Payment Integration
-- 🔔 Notifications
-- 👨‍💼 Admin Dashboard
-- 📦 Inventory Management
-- 📊 Analytics
-
-## 🛠️ Technologies
-
-### Backend
-
+## Technologies
 - Node.js
 - Express.js
 - MongoDB
-- REST API
-- JWT Authentication
+- Mongoose
+- JWT
 
-### Frontend
+## Project Structure
 
-- JavaScript
-- TypeScript
-- CSS
-
-### Development Tools
-
-- Git
-- GitHub
-- VS Code
-- npm
-
-## 📁 Project Structure
-
-```text
 perfume-backend/
-│
 ├── config/
 ├── controllers/
-├── frontend/
 ├── middleware/
 ├── models/
 ├── routes/
 ├── scripts/
 ├── services/
-├── utils/
-│
-├── .env.example
-├── .gitignore
-├── package.json
-├── index.js
-└── server.js
+├── uploads/
+└── utils/
+
+## Environment Variables
+
+.env
+
+## Installation
+
+npm install
+
+## Development
+
+npm run dev
+
+## Production
+
+npm start
+
+## API
+
+http://localhost:4000
+
+## Frontend Connection
+
+Frontend repository:
+https://github.com/elzabel2321-ops/perfume-frontend
+
+Frontend:
+http://localhost:3000
+
+Backend:
+http://localhost:4000
+
+MongoDB:
+Database used by the backend API.
